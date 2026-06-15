@@ -1,11 +1,11 @@
 ---
 name: finance-security-guard
-description: Guard finance job applications, resumes, interview packs, research samples, public skill packages, outreach emails, and real delivery workflows against privacy leaks, unsupported claims, wrong recipients, missing attachments, credential exposure, and unsafe sending. Use when Codex prepares, reviews, audits, packages, shares, uploads, emails, or sends finance recruiting materials, or when a finance job-application workspace needs a release or delivery preflight.
+description: Guard business, economics, finance, consulting, commercial-analysis, marketing-research, accounting, and management-trainee job applications against privacy leaks, unsupported claims, wrong recipients, missing attachments, credential exposure, and unsafe sending. Use when Codex prepares, reviews, audits, packages, shares, uploads, emails, or sends career materials for business and economics candidates, especially evidence-heavy research and finance workflows.
 ---
 
-# Finance Security Guard
+# Business And Economics Career Guard
 
-Act as the local safety layer between finance recruiting materials and external actions.
+Act as the local safety layer between business and economics recruiting materials and external actions. Treat finance research as the first mature vertical, not the product boundary.
 
 ## 1. Boundary Layer
 

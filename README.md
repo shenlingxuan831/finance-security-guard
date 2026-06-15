@@ -1,17 +1,17 @@
 <div align="center">
 
-# 金融保安.skill
+# 经管保安.skill
 
-### 投简历之前，先把不该说的、不能证实的和可能发错的拦下来
+### 经管生用 AI 找工作之前，先把不能证实、可能泄露和容易发错的内容拦下来
 
-![金融保安.skill 主视觉](skills/finance-security-guard/assets/hero.png)
+![经管保安.skill 主视觉](skills/finance-security-guard/assets/hero.png)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-333333.svg)](LICENSE)
 ![Agent Skill](https://img.shields.io/badge/Agent_Skill-Standard-4f8b62)
 ![Runtime](https://img.shields.io/badge/Runtime-Codex_%C2%B7_Claude_Code_%C2%B7_Cursor-8f43d8)
 ![Local First](https://img.shields.io/badge/Privacy-Local_First-f5b800)
 
-**内置八层安全方法论 · 简历证据检查 · 隐私清理 · 投递前预检**
+**金融行研首发 · 逐步扩展咨询、商业分析、市场研究、财务审计与管培**
 
 [内置方法论](#内置方法论) · [它能做什么](#它能做什么) · [怎么用](#怎么用) · [效果示例](#效果示例) · [安装](#安装)
 
@@ -21,7 +21,7 @@
 
 ## 为什么值得安装
 
-金融保安不是一个只会找手机号和邮箱的正则脚本。它把金融求职中最容易出错的五段工作接成了一个可复用流程。
+经管保安不是一个只会找手机号和邮箱的正则脚本。它把经管求职中最容易出错的五段工作接成了一个可复用流程。当前先把金融行研做深，再逐步扩展到咨询、商业分析、市场研究、财务审计和管培。
 
 ### 1. 下载后直接打开本地 Web
 
@@ -29,28 +29,28 @@
 
 ### 2. 先建立证据边界，再修改简历
 
-系统把简历事实、JD 要求、研究资料和用户补充信息分开处理。没有来源的经历不会被润色成“已经做过”，PDF 或 DOCX 没读到正文时也会明确标记。
+系统把简历事实、JD 要求、课程项目、商赛、研究资料和用户补充信息分开处理。没有来源的经历不会被润色成“已经做过”，PDF 或 DOCX 没读到正文时也会明确标记。
 
 ### 3. 自动识别面试方向，但允许用户修正
 
-上传 JD 后，会从机构类型、行业方向、能力重点和建议作品四个维度生成可编辑的面试方向，例如：
+上传 JD 后，会从岗位类型、行业方向、能力重点和建议作品四个维度生成可编辑的面试方向。例如金融行研会得到：
 
 ```text
 卖方研究 · 消费 / 轻工 · 行业研究与资料整理
 建议作品：小型行业研究 + 3 分钟面试陈述
 ```
 
-这个方向来自岗位描述，只用于组织准备流程，不会被写成候选人经历。
+后续会覆盖咨询 Case、商业分析、品牌市场、财务审计和管培场景。方向来自岗位描述，只用于组织准备流程，不会被写成候选人经历。
 
 ### 4. 把零散资料变成可核对的小型行研框架
 
-项目文件、公司资料和研究笔记会进入独立的参考资料台账，保留来源与可核对片段，并生成：
+课程报告、商赛、项目文件、公司资料和研究笔记会进入独立的参考资料台账，保留来源与可核对片段，并生成：
 
 ```text
 研究问题 -> 事实底稿 -> 核心判断 -> 驱动与风险 -> 面试表达
 ```
 
-它不会把参考材料自动包装成确定性投资结论，而是帮助用户在面试前做出一篇结构完整、证据可追溯的小型行研。
+它不会把参考材料自动包装成确定性结论，而是帮助用户在面试前做出结构完整、证据可追溯的研究样本。当前内置的是小型行研框架，后续会增加咨询分析、商业分析和市场研究模板。
 
 ### 5. 把真实投递当作受控动作
 
@@ -67,9 +67,9 @@
 
 ## 内置方法论
 
-`金融保安.skill` 的核心卖点不是一组手机号、邮箱和 Token 正则，而是一套写进 Agent 行为约束的 **八层金融求职安全方法论**。
+`经管保安.skill` 的核心卖点不是一组手机号、邮箱和 Token 正则，而是一套写进 Agent 行为约束的 **八层经管求职安全方法论**。
 
-![金融保安.skill 八层方法论](skills/finance-security-guard/assets/methodology.png)
+![经管保安.skill 八层方法论](skills/finance-security-guard/assets/methodology.png)
 
 | 方法层 | 解决什么问题 |
 | --- | --- |
@@ -97,15 +97,15 @@
 
 ## 它能做什么
 
-金融求职材料最危险的地方，往往不是“不够好看”，而是：
+经管求职材料最危险的地方，往往不是“不够好看”，而是：
 
 - 把 JD 里的要求写成自己已经做过的经历；
-- 简历、邮件、行研作品和面试话术互相打架；
+- 简历、邮件、课程项目、研究作品和面试话术互相打架；
 - 公开仓库里混入真实邮箱、手机号、本机路径或授权码；
 - 收件人、标题、附件没核对，就准备真实发送；
 - PDF、DOCX 没读到正文，AI 却假装已经看过。
 
-`金融保安.skill` 把检查放在生成、公开和发送之前：
+`经管保安.skill` 把检查放在生成、公开和发送之前：
 
 | 阶段 | 做什么 | 产出 |
 | --- | --- | --- |
@@ -120,7 +120,7 @@
 
 ## 和通用 AI 有什么不同
 
-通用 AI 倾向于“先给一版听起来不错的答案”。金融保安先问：
+通用 AI 倾向于“先给一版听起来不错的答案”。经管保安先问：
 
 1. 这句话来自简历、项目文件，还是用户刚刚确认？
 2. 这是候选人事实，还是 JD 对理想候选人的要求？
@@ -143,7 +143,7 @@
 
 ## 怎么用
 
-![金融保安.skill 用户使用流程](skills/finance-security-guard/assets/user-flow.png)
+![经管保安.skill 用户使用流程](skills/finance-security-guard/assets/user-flow.png)
 
 ### 本地网页
 
@@ -171,6 +171,8 @@
 
 ### 在 Agent 中调用
 
+为兼容已经安装的用户，当前 Skill 调用 ID 暂时保留为 `$finance-security-guard`；展示品牌和 GitHub 仓库已升级为“经管保安”。
+
 ```text
 这是我的简历、目标 JD 和项目材料。
 请使用 $finance-security-guard 先检查证据和隐私，
@@ -196,7 +198,7 @@ python .\skills\finance-security-guard\scripts\finance_guard.py preflight `
 
 ## 效果示例
 
-同一批虚构材料，金融保安不会输出一个“87 分匹配度”，而会给出可行动的判断：
+同一批虚构材料，经管保安不会输出一个“87 分匹配度”，而会给出可行动的判断：
 
 | 检查项 | 结果 |
 | --- | --- |
@@ -240,7 +242,7 @@ python .\skills\finance-security-guard\scripts\finance_guard.py preflight `
 ## 仓库结构
 
 ```text
-finance-security-guard/
+business-career-guard/
 ├─ skills/finance-security-guard/
 │  ├─ SKILL.md                  # Agent 边界、角色、流程与红线
 │  ├─ agents/openai.yaml        # Skill 展示信息
@@ -261,8 +263,8 @@ finance-security-guard/
 ## 安装
 
 ```powershell
-git clone https://github.com/shenlingxuan831/finance-security-guard.git
-cd finance-security-guard
+git clone https://github.com/shenlingxuan831/business-career-guard.git
+cd business-career-guard
 .\install.ps1
 .\start.ps1
 ```
@@ -280,6 +282,8 @@ cd finance-security-guard
 
 当前版本属于 **Demo-Ready**：
 
+- 当前最成熟的方向是金融行研与研究型实习；
+- 咨询、商业分析、市场研究、财务审计和管培将作为下一阶段扩展；
 - 本地引导、文件与文字输入、证据摘录、隐私扫描、路由和预检已可运行；
 - 能从 JD 生成可编辑的面试方向；
 - 能把可读取的研究资料整理成参考台账和小型行研写作框架；

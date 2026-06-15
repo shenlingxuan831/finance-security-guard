@@ -36,7 +36,7 @@ def render() -> None:
     text((88, 138), "八层规则共同约束 Agent：先判断边界，再处理材料，最后通过验收门槛", 27, MUTED)
 
     rounded((1390, 48, 1715, 140), 46, DARK)
-    text((1552, 94), "金融求职安全方法论", 23, "#ffffff", "mm")
+    text((1552, 94), "经管求职安全方法论", 23, "#ffffff", "mm")
 
     icon = Image.open(ICON).convert("RGB")
     icon = ImageOps.fit(icon, (230, 230), method=Image.Resampling.LANCZOS)

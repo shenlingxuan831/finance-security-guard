@@ -31,7 +31,7 @@ def render() -> None:
     def label(xy, value, size, fill=INK, anchor=None):
         draw.text(xy, value, font=make_font(size), fill=fill, anchor=anchor)
 
-    label((90, 70), "金融保安.skill｜内置 Web 使用流程", 54)
+    label((90, 70), "经管保安.skill｜内置 Web 使用流程", 54)
     label((92, 145), "下载后打开本地网页，在一个界面里完成选择、检查和下一步处理", 28, MUTED)
 
     rounded((1420, 55, 1710, 145), 45, DARK)
@@ -50,7 +50,7 @@ def render() -> None:
         ("02", "选择任务与文件", ["申请、面试、检查、公开", "选择简历、JD 和项目", "原文件不会被修改"], "#ffffff"),
         ("03", "网页本地检查", ["登记可读与未读文件", "区分事实与岗位要求", "检查隐私、秘密和缺口"], DARK),
         ("04", "查看明确结论", ["READY：可以继续", "REVIEW：需要确认", "BLOCKED：必须先处理"], "#ffffff"),
-        ("05", "继续安全处理", ["修改简历和求职材料", "准备面试或公开作品", "发送前再做一次预检"], "#dfeee8"),
+        ("05", "继续安全处理", ["修改简历和项目表达", "准备面试或研究作品", "发送前再做一次预检"], "#dfeee8"),
     ]
 
     start_x, y, card_w, card_h, gap = 70, 590, 310, 390, 32

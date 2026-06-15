@@ -229,7 +229,7 @@ def make_handler(workspace: Path, server_state: dict):
                 server_state["configured"] = True
                 self.send_json(200, {
                     "ok": True,
-                    "message": "金融保安配置完成。",
+                    "message": "经管保安配置完成。",
                     "config_file": str(target),
                     "next_action": {
                         "prepare": "上传或提供简历与目标 JD。",

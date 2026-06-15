@@ -21,6 +21,5 @@ if (Test-Path $target) {
 }
 Copy-Item -LiteralPath $source -Destination $target -Recurse
 
-Write-Host "Installed 金融保安.skill to $target"
+Write-Host "Installed 经管保安.skill to $target"
 Write-Host "Run .\start.ps1 to open the local workbench."
-
